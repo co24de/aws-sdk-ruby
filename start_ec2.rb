@@ -110,9 +110,9 @@ class StartEC2Instance
     puts '******************'
     puts ''
     puts 'Those Instances will be Stop.'
-    print 'OK? (yes or ok) :'
+    print 'OK? (yes or no) :'
     enter_start = STDIN.gets.chomp
-    if enter_start != "yes" && enter_start != "ok"
+    if enter_start != "yes"
       puts 'Operation End.'
       exit
     end
